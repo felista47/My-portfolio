@@ -1,26 +1,87 @@
-nav ul {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    margin: auto;
-    padding: 0;
-    width: auto;
-    overflow: hidden;
-    background-color: teal;
-}
-
-nav li {
-    float: left;
-}
-
-nav li a {
-    display: block;
-    color: aqua;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: lavender;
-}
+    * {
+        background-color: teal;
+        color: ghostwhite;
+    }
+    
+    h1,
+    h2,
+    h3 {
+        color: burlywood;
+        font-size: 30px;
+    }
+    
+    [href] {
+        text-decoration: none;
+        margin: 2 rem;
+    }
+    
+    button {
+        color: ghostwhite;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        border: 1px solid ghostwhite;
+        border-radius: 0.5rem;
+        font-size: 20px;
+    }
+    
+    #button {
+        float: left;
+    }
+    
+    button:hover {
+        background-color: ghostwhite;
+        color: black;
+    }
+    
+    .heading {
+        color: brown;
+        font-size: 50px;
+    }
+    
+    .nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .nav ul {
+        list-style-type: none;
+        padding: 15px;
+        overflow: hidden;
+    }
+    
+    .nav li {
+        float: left;
+    }
+    
+    .nav li a {
+        display: block;
+        color: ghostwhite;
+        text-align: center;
+        text-decoration: none;
+        padding: 16px;
+    }
+    
+    li a:hover {
+        background-color: ghostwhite;
+        color: black;
+        border-radius: 0.5rem;
+    }
+    
+    .skills,
+    .education,
+    .intro,
+    .project,
+    .experience {
+        display: block;
+        padding: 100px 100px 0;
+    }
+    
+    .about {
+        padding: 100px 100px 0;
+    }
+    
+    .about img {
+        border: 2px solid ghostwhite;
+        margin: 15px;
+        border-radius: 0.7rem;
+    }
